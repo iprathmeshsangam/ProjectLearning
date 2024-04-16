@@ -4,9 +4,10 @@ package OOPS.Ineritance;
 public class Box{
 
     //attributes
+
     double l;
     double h;
-    double w;
+    double w; // if we make it private No Child class will be able to access it.
 
 
     Box(){
