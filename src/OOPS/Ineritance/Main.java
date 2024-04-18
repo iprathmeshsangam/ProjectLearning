@@ -8,9 +8,9 @@ public class Main {
 ////        System.out.println();
 ////        System.out.println(());
 
-        BoxWeight myBox = new BoxWeight(4,5,6,7);
-        double Area = myBox.h * myBox.w * myBox.l;
-        System.out.println("Area of the box is " + Area + " The weight of myBox is " + myBox.weight);
+        Box myBox = new BoxWeight(1,2,3,4);
+        double Area = myBox.l * myBox.h * myBox.w;
+        System.out.println("Area of a Box is " + Area);
     }
 
 
