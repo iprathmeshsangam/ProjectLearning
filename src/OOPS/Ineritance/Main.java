@@ -7,11 +7,10 @@ public class Main {
 //        System.out.println(box.l + " "+ box.h + " "+ box.w);
 ////        System.out.println();
 ////        System.out.println(());
+        BoXPrice box5 = new BoXPrice(23.5,23.0,24.56,23,45000);
+        BoXPrice box6 = new BoXPrice(2,3,200);
+        System.out.println(box6.price);
 
-        Box myBox = new BoxWeight(1,2,3,4);
-        double Area = myBox.l * myBox.h * myBox.w;
-        System.out.println("Area of a Box is " + Area);
+
     }
-
-
 }

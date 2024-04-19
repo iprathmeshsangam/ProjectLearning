@@ -8,6 +8,7 @@ public class Box{
     double l;
     double h;
     double w; // if we make it private No Child class will be able to access it.
+//    double weight;
 
 
     Box(){
